@@ -46,7 +46,7 @@ defined('EMAIL')	? null : define("EMAIL", "your_account_email");
 //included with the standard REST API and the additional features of the Skookum Tickspot API
 defined('PASSWORD')	? null : define("PASSWORD", "your_account_password"); 
 
-//If you would like to change your user agent for the robot to authentic with the TickSpot service. 
+//If you would like to change your user agent for the robot to authenticate with the TickSpot service. 
 //Adcanced users only, please do not change if you have no need to
 defined('USERAGENT')	? null : define("USERAGENT", "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16"); 
 

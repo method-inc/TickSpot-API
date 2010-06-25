@@ -10,7 +10,7 @@ class tickspot {
 	}
 
 	public function delete_all_projects(){
-		//First authentic with TickSpot.com to ensure the application can login to your account
+		//First authenticate with TickSpot.com to ensure the application can login to your account
 		$auth = load::TickSpotAuth();		
 		//Use the API to return all of the current projects under your account
 		$rawdata = tickspot::get('projects');
@@ -25,7 +25,7 @@ class tickspot {
 	}
 
 	public function close_all_projects(){
-		//First authentic with TickSpot.com to ensure the application can login to your account
+		//First authenticate with TickSpot.com to ensure the application can login to your account
 		$auth = load::TickSpotAuth();		
 		//Use the API to return all of the current projects under your account
 		$projects = tickspot::get('projects');
@@ -39,7 +39,7 @@ class tickspot {
 	}
 
 	public function open_all_projects(){
-		//First authentic with TickSpot.com to ensure the application can login to your account
+		//First authenticate with TickSpot.com to ensure the application can login to your account
 		$auth = load::TickSpotAuth();		
 		//Use the API to return all of the current projects under your account
 		$projects = tickspot::get('projects');
