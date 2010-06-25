@@ -1,0 +1,2 @@
+<?php //This will open all of the projects that an account has 'closed' - These project will not be deleted, however, when a project is opened it is moved to a opened projects tab that further allows the project to have time entries added into it.
+$o = tickspot::open_all_projects(); echo $o; ?>

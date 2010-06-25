@@ -1,0 +1,2 @@
+<?php //This will close all of the projects that an account has 'open' - These project will not be deleted, however, when a project is closed it is moved to a closed projects tab and does not allow further time entry into it.
+$c = tickspot::close_all_projects(); echo $c; ?>
